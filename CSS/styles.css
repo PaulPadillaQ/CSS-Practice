@@ -1,0 +1,156 @@
+/*
+border-radius= 100%
+para hcer redondos
+*/
+body {
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px auto;
+  font-family: 'Beau Rivage', cursive;
+  font-size: 5rem;
+  color: #4E944F;
+  line-height: 2;
+}
+
+img {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  color: #4E944F;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #1B5C1D;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+  margin: 40px auto;
+  border-color: gray;
+}
+/*---------------CLASS-SELECTORS-----------------*/
+
+.skill-row {
+  width: 50%;
+  margin: 10vh auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.bottom-container {
+  padding-top: 20px
+}
+
+.img-up {
+  position: relative;
+  left: 200px;
+}
+
+.img-down {
+  position: absolute;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.mountain {
+  margin-bottom: -4px;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 25%;
+  margin-right: 30px;
+  background-color: lightblue;
+}
+
+.solver{
+  float: right;
+  margin-left: 30px;
+}
+
+.skill{
+  float: left;
+  margin-right: 30px;
+}
+
+.profile{
+  width: 35%;
+  margin: auto;
+}
+
+.profpic{
+  height: 30vh;
+  margin: 20px auto;
+  border-radius: 50%
+}
+
+.top-container {
+  position: relative;
+  background-color: #F4FCD9;
+  padding-top: 35px;
+}
+
+.middle-container {
+  background-color: #B4E197;
+}
+
+.bottom-container {
+  padding: 50px 0 30px 0;
+  background-color: #83BD75;
+}
+
+.btn {
+  background: #187d19;
+  background-image: linear-gradient(to bottom, #187d19, #00d103);
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px auto;
+}
+
+.btn:hover {
+  background: #17d136;
+  background-image: linear-gradient(to bottom, #17d136, #31a84f);
+  text-decoration: none;
+}
+
+.contact-me{
+  width: 45%;
+  margin: auto;
+}
+
+.footer-link{
+  margin: 0 15px;
+  font-size: 1rem
+}
+
+.copyright{
+  font-size: 0.8rem
+}
